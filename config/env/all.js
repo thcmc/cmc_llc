@@ -15,10 +15,10 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
-				'http://fonts.googleapis.com/css?family=Share+Tech+Mono',
-				'http://fonts.googleapis.com/css?family=Arvo',
-				'http://fonts.googleapis.com/css?family=Ewert',
-				'http://fonts.googleapis.com/css?family=Electrolize'
+				'https://fonts.googleapis.com/css?family=Share+Tech+Mono',
+				'https://fonts.googleapis.com/css?family=Arvo',
+				'https://fonts.googleapis.com/css?family=Ewert',
+				'https://fonts.googleapis.com/css?family=Electrolize'
 			],
 			js: [
 				'public/lib/angular/angular.js',
