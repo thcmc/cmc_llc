@@ -1,0 +1,103 @@
+<section data-ng-controller="HomeController" class="row">
+        <!-- MASTHEAD  ===================================================================================================================================== -->
+    <div class="col-lg-12 col-md-12 col-sm-10 col-xs-6">
+        <div class="jumbotron masthead">
+          <div class="container">
+            <h1>CMCLLC</h1>
+            <h6 class="secondheader">Creative Monster Consulting</h6>
+            <h4 class="thirdheader">CUSTOM | SCALABLE | CLOUD-BASED</h4><br />
+            <h4 class="thirdheader" style="font-size: 42px;">Web &amp; Mobile</h4>
+            <br />
+            <h4 class="thirdheader">APPLICATION DEVELOPMENT</h4>  
+            <br />
+        <!-- INFO/ABOUT in masthead  ======================================================================================================== -->
+              <p id="maintop">
+              Applications of Technology<br>
+              <span class="text-info"><i>for improving</i><br>
+               Operations | Profit | Cost Savings | Online branding | + more<br><!-- 
+                We begin by fully understanding your business, then mapping a design plan with clear objectives.  After gaining your approval of the plan, we move to development, testing, and implementation. Lastly, we educate you on everything we have accomplished.
+                             <br> -->
+           <i>through</i><br></span>
+           Websites 
+           <span class="text-info">&diams;</span>
+           Applications 
+           <span class="text-info">&diams;</span>
+           Advertising 
+           <span class="text-info">&diams;</span> 
+           Branding 
+           <span class="text-info">&diams;</span> 
+           Automation 
+           <br>
+           Operations 
+           <span class="text-info">&diams;</span> 
+           Analysis 
+           <span class="text-info">&diams;</span> 
+           Consulting
+              <span class="text-info"><br>We have unique ways to help you improve.<br />
+              <b>A</b>ttention to detail, quality of work, and effiecient use of time and financial resources, are also very important to us.
+              <br /></span><br>
+              <a href="mailto:th@creativemonsterconsulting.com" target="_blank" title="th@creativemonsterconsulting.com">Contact us to see how we can help</a></p>
+            <p>
+              <!--<a href="#" class="btn btn-primary btn-large" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 2.3.2']);">Download Bootstrap</a>
+            --></p>
+            <ul class="masthead-links">
+              <!-- <li><a href="#" onclick="">Current Projects</a></li>
+              <li><a href="#" onclick="">View Examples</a></li>
+              <li><a href="#" onclick="">Ask Questions</a></li> -->
+              <li>&copy;2014 CMC, LLC. </li>
+            </ul>
+            <ul class="masthead-links" data-ng-hide="authentication.user">
+                <!-- <li ui-route="/signup" ng-class="{active: $uiRoute}"><a href="/#!/signup">Signup</a></li>
+                <li class="divider-vertical"></li> -->
+                <li ui-route="/signin" ng-class="{active: $uiRoute}"><a href="/#!/signin">Customer Log-in</a></li>
+            </ul>
+            <ul class="masthead-links dropup" data-ng-show="authentication.user">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        {{authentication.user.displayName}} <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/#!/settings/profile">Edit Profile</a></li>
+                        <li><a href="/#!/settings/accounts">Manage Social Accounts</a></li>
+                        <li data-ng-show="authentication.user.provider === 'local'">
+                            <a href="/#!/settings/password">Change Password</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/auth/signout">Signout</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <!--     <h1 class="text-center">THANK YOU FOR DOWNLOADING MEAN.JS</h1>
+        <section>
+            <p>
+                Before you begin we recommend you read about the basic building blocks that assemble a MEAN.JS application:
+            </p>
+            <dl>
+                <dt>MongoDB</dt>
+                <dd>
+                    Go through <a target="_blank" href="http://mongodb.org">MongoDB Official Website</a> and proceed to its <a target="_blank" href="http://docs.mongodb.org/manual/">Great Manual</a>, which should help you understand NoSQL and MongoDB better.
+                </dd>
+                <dt>Express</dt>
+                <dd>
+                    The best way to understand Express is through its <a target="_blank" href="http://expressjs.com"> Official Website</a>, particularly <a target="_blank" href="http://expressjs.com/guide.html">The Express Guide</a>; you can also go through this <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow Thread</a> for more resources.
+                </dd>
+                <dt>AngularJS</dt>
+                <dd>
+                    Angular's <a target="_blank" href="http://angularjs.org">Official Website</a> is a great starting point. You can also use <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a>, and the <a target="_blank" href="https://egghead.io/">Egghead Videos</a>.
+                </dd>
+                <dt>Node.js</dt>
+                <dd>
+                    Start by going through <a target="_blank" href="http://nodejs.org">Node.js Official Website</a> and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">StackOverflow Thread</a>, which should get you going with the Node.js platform in no time.
+                </dd>
+            </dl>
+            <p class="alert alert-info">
+                When you're done with those resources and feel you understand the basic principles continue to the <a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>.
+            </p>
+            <br>
+            <br>Enjoy &amp; Keep Us Updated,
+            <br>The MEAN.JS Team.
+        </section> -->
+        </div>
+</section>
