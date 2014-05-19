@@ -7,6 +7,10 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.min.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.min.css',
+				'https://fonts.googleapis.com/css?family=Share+Tech+Mono',
+				'https://fonts.googleapis.com/css?family=Arvo',
+				'https://fonts.googleapis.com/css?family=Ewert',
+				'https://fonts.googleapis.com/css?family=Electrolize'
 			],
 			js: [
 				'public/lib/angular/angular.min.js',
