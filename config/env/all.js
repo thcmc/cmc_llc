@@ -2,8 +2,8 @@
 
 module.exports = {
 	app: {
-		title: 'CMC - Custom Web Apps',
-		description: 'Web Application Development',
+		title: 'CMC,LLC.',
+		description: 'Web + Mobile Application Development',
 		keywords: 'mongodb, express, angularjs, node.js, mongoose, passport, pittsburgh, developer, applications'
 	},
 	port: process.env.PORT || 3000,
@@ -15,10 +15,10 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
-				'https://fonts.googleapis.com/css?family=Share+Tech+Mono',
-				'https://fonts.googleapis.com/css?family=Arvo',
-				'https://fonts.googleapis.com/css?family=Ewert',
-				'https://fonts.googleapis.com/css?family=Electrolize'
+				'http://fonts.googleapis.com/css?family=Share+Tech+Mono',
+				'http://fonts.googleapis.com/css?family=Arvo',
+				'http://fonts.googleapis.com/css?family=Ewert',
+				'http://fonts.googleapis.com/css?family=Electrolize'
 			],
 			js: [
 				'public/lib/angular/angular.js',

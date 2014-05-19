@@ -1,16 +1,12 @@
 'use strict';
 
 module.exports = {
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://tmh144429:F1la50won@ds037737.mongolab.com:37737/creativemonster1',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://localhost/mean',
 	assets: {
 		lib: {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.min.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.min.css',
-				'https://fonts.googleapis.com/css?family=Share+Tech+Mono',
-				'https://fonts.googleapis.com/css?family=Arvo',
-				'https://fonts.googleapis.com/css?family=Ewert',
-				'https://fonts.googleapis.com/css?family=Electrolize'
 			],
 			js: [
 				'public/lib/angular/angular.min.js',
@@ -25,8 +21,8 @@ module.exports = {
 		js: 'public/dist/application.min.js'
 	},
 	facebook: {
-		clientID: process.env.FACEBOOK_ID || '317110068443898',
-		clientSecret: process.env.FACEBOOK_SECRET || '5693dd6194e1abd20f7666f1ae4b0207',
+		clientID: process.env.FACEBOOK_ID || 'APP_ID',
+		clientSecret: process.env.FACEBOOK_SECRET || 'APP_SECRET',
 		callbackURL: 'http://www.creativemonsterconsulting.com/auth/facebook/callback'
 	},
 	twitter: {
