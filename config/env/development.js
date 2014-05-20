@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://tmh144429:F1la50won@ds037737.mongolab.com:37737/creativemonster1',
 	app: {
-		title: 'MEAN.JS - Development Environment'
+		title: 'CMC,LLC.'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',
