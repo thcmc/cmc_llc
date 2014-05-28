@@ -1,16 +1,18 @@
 <div data-ng-include="'/modules/core/views/header.client.view.html'" class="navbar navbar-fixed-top navbar-inverse"></div>
 <br>
 <br>
-<br>
-<br>
 <div class="row">
 	<div class="col-md-12">
-		<h1>THIS IS LOGGED IN</h1>	
+		<h1>Welcome to the customer portal</h1>	
 	</div>
+    <div class="col-md-12">
+        <a ui-sref="/index"><i class="fa fa-home"></i> Home</a>&nbsp;&nbsp;
+        <a ui-sref=".contact" popover="Request website edits, General Q's,  Request a meeting, Upload Data, Leave Feedback, + more" popover-trigger="mouseenter" popover-placement="bottom"><i class="fa fa-paper-plane"></i> Contact forms</a>&nbsp;&nbsp;
+        <a ui-sref=".payment" popover="pay online with Mastercard, Visa, Amazon, Google, PayPal, + more" popover-trigger="mouseenter" popover-placement="bottom"><i class="fa fa-dollar"></i> Payment options</a>
+            <ui-view></ui-view>
+    </div>
 
-
-<div class="fb-activity" data-site="developers.facebook.com" data-action="likes, recommends" data-colorscheme="light" data-header="true">
-	
-</div>
+    <div class="fb-activity" data-site="developers.facebook.com" data-action="likes, recommends" data-colorscheme="light" data-header="true">
+    </div>
 
 </div>

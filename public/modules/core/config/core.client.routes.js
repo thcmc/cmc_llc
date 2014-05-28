@@ -15,6 +15,14 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 		state('index', {
 			url: '/index',
 			templateUrl: 'modules/core/views/index.html'
+		}).
+		state('index.contact', {
+			url: '/contact',
+			templateUrl: 'modules/core/views/index.contact.html'
+		}).
+		state('index.contact.webedits', {
+			url: '/webedits',
+			templateUrl: 'modules/core/views/index.contact.webedits.html'
 		});
 	}
 ]);

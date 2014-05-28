@@ -1,0 +1,26 @@
+<h4><i>Please choose from the following contact options:</i></h4>
+<h6>I would like to:</h6>
+<!-- <a ui-sref=".webedits"><input type="radio">Request Edits to a Website</a>
+<a ui-sref=".meetingrequest"><input type="radio">Submit a Meeting Request</a>
+<a ui-sref=".general"><input type="radio">Ask a General Question</a>
+<a ui-sref=".upload"><input type="radio">upload data</a> -->
+<br>
+<ui-view>
+ 	<br>
+	<dl>
+      <dt><dfn><a ui-sref=".webedits">Request Edits to a Website</a></dfn></dt>
+      <dd><small><i>includes:</i></small> 
+		<ul>
+			<li>Content [<span id="small-note">descriptions, hours, events, specials, promotions, etc...</span>]</li>
+			<li>Graphics</li>
+		</ul> content updates [Seasonal content, upcoming events, new specials, etc.]<br>
+       graphics and/or picture updating</dd>
+      <br>
+      <dt><dfn><a ui-sref=".meetingrequest">Submit a Meeting Request</a></dfn></dt>
+      <dd>Need to meet in-person?  Try emailing your questions first, but you can schedule appointments <a href="">here</a>.</dd>
+      <br>
+      <dt><dfn><a ui-sref=".general">Ask a General Question</a></dfn></dt>
+      <dd>Ideas, cost questions, business services inquiries, etc.</dd>
+    </dl>
+</ui-view>
+

@@ -1202,3 +1202,8 @@ form.bs-docs-example {
     padding-bottom: 20px;
   }
 }
+
+
+#small-note {
+  font-size: 12px;
+}

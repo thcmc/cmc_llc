@@ -45,27 +45,6 @@
               <li><a href="#" onclick="">Ask Questions</a></li> -->
               <li>&copy;2014 CMC, LLC. </li>
             </ul>
-            <ul class="masthead-links" data-ng-hide="authentication.user">
-                <!-- <li ui-route="/signup" ng-class="{active: $uiRoute}"><a href="/#!/signup">Signup</a></li>
-                <li class="divider-vertical"></li> -->
-                <li ui-route="/signin" ng-class="{active: $uiRoute}"><a href="/#!/signin">Customer Log-in</a></li>
-            </ul>
-            <ul class="masthead-links dropup" data-ng-show="authentication.user">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        {{authentication.user.displayName}} <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/#!/settings/profile">Edit Profile</a></li>
-                        <li><a href="/#!/settings/accounts">Manage Social Accounts</a></li>
-                        <li data-ng-show="authentication.user.provider === 'local'">
-                            <a href="/#!/settings/password">Change Password</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="/auth/signout">Signout</a></li>
-                    </ul>
-                </li>
-            </ul>
           </div>
         </div>
         <!--     <h1 class="text-center">THANK YOU FOR DOWNLOADING MEAN.JS</h1>
@@ -100,3 +79,24 @@
         </section> -->
         </div>
 </section>
+            <ul class="masthead-links" data-ng-hide="authentication.user">
+                <!-- <li ui-route="/signup" ng-class="{active: $uiRoute}"><a href="/#!/signup">Signup</a></li>
+                <li class="divider-vertical"></li> -->
+                <li ui-route="/signin" ng-class="{active: $uiRoute}"><a href="/#!/signin">Customer Log-in</a></li>
+            </ul>
+            <ul class="masthead-links dropup" data-ng-show="authentication.user">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        {{authentication.user.displayName}} <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/#!/settings/profile">Edit Profile</a></li>
+                        <li><a href="/#!/settings/accounts">Manage Social Accounts</a></li>
+                        <li data-ng-show="authentication.user.provider === 'local'">
+                            <a href="/#!/settings/password">Change Password</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="/auth/signout">Signout</a></li>
+                    </ul>
+                </li>
+            </ul>

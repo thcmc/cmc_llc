@@ -18,7 +18,8 @@ module.exports = {
 				'https://fonts.googleapis.com/css?family=Share+Tech+Mono',
 				'https://fonts.googleapis.com/css?family=Arvo',
 				'https://fonts.googleapis.com/css?family=Ewert',
-				'https://fonts.googleapis.com/css?family=Electrolize'
+				'https://fonts.googleapis.com/css?family=Electrolize',
+				'//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'
 			],
 			js: [
 				'public/lib/angular/angular.js',
