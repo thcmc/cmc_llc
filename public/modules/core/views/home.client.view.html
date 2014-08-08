@@ -1,102 +1,125 @@
-<section data-ng-controller="HomeController" class="row">
-        <!-- MASTHEAD  ============================================================================= -->
-    <div class="col-lg-12 col-md-12 col-sm-10 col-xs-6">
-        <div class="jumbotron masthead">
+<div data-ng-controller="HomeController">
+<section class="row">
+    
+    <!-- main masthead  -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="centerpiece masthead">
           <div class="container">
             <h1>CMCLLC</h1>
-            <h6 class="secondheader">Creative Monster Consulting</h6>
-            <h4 class="thirdheader">CUSTOM | SCALABLE | CLOUD-BASED</h4><br />
-            <h4 class="thirdheader" style="font-size: 42px;">Web &amp; Mobile</h4>
+            <h6 class="secondheader">Creative Monster Consulting</h6><!-- CUSTOM | SCALABLE | CLOUD-BASED -->
+            <h4 class="thirdheader">PITTSBURGH, PA  15215 (412) 447 - 8555</h4>
+            <h3 class="fourthheader">BUSINESS MANAGEMENT &amp; IT CONSULTING</h3> <!--Web &amp; Mobile
             <br>
-            <h4 class="thirdheader">APPLICATION DEVELOPMENT</h4>  
-            <br>        <!-- INFO/ABOUT in masthead  ===================================================== -->
-              <p id="maintop">
-              Applications of Technology<br>
-              <span class="text-info"><i>for improving</i><br>
-               Operations | Profit | Cost Savings | Online branding | + more<br><!-- 
-                We begin by fully understanding your business, then mapping a design plan with clear objectives.  After gaining your approval of the plan, we move to development, testing, and implementation. Lastly, we educate you on everything we have accomplished.
-                             <br> -->
-           <i>through</i><br></span>
-           Websites 
-           <span class="text-info">&diams;</span>
-           Applications 
-           <span class="text-info">&diams;</span>
-           Advertising 
-           <span class="text-info">&diams;</span> 
-           Branding 
-           <span class="text-info">&diams;</span> 
-           Automation 
-           <br>
-           Operations 
-           <span class="text-info">&diams;</span> 
-           Analysis 
-           <span class="text-info">&diams;</span> 
-           Consulting
-           <span class="text-info"><br>We have unique ways to help you improve.<br />
-              <b>A</b>ttention to detail, quality of work, and effiecient use of time and financial resources, are also very important to us.
-              <br /></span><br>
-              <a href="mailto:th@creativemonsterconsulting.com" target="_blank" title="th@creativemonsterconsulting.com">Contact us to see how we can help</a></p>
-            <p>
-              <!--<a href="#" class="btn btn-primary btn-large" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 2.3.2']);">Download Bootstrap</a>
-            --></p>
+            <h4 class="thirdheader"> </h4> <br>-->  <!-- APPLICATION DEVELOPMENT -->
+                    
+            
+            <!-- Operational Efficiency | Growing Profit | Reducing Cost Savings | Building Brands Online | + more-->
+            <span class="text-info">Technology Solutions<br></span>
+            Website Design
+            <span class="text-info">&diams;</span>Application Development
+            <span class="text-info">&diams;</span>Targeted Advertising 
+            <span class="text-info">&diams;</span> Online Branding 
+            <span class="text-info">&diams;</span> Process Automation
+            <span class="text-info">&diams;</span> Social Media Integration
+            <span class="text-info">&diams;</span> Productivity Tools
+            <br>
+            <br> 
+            <span class="text-info">Management &amp; Operations</span><br>
+            Data Collection 
+            <span class="text-info">&diams;</span> Performance Analysis 
+            <span class="text-info">&diams;</span> Operational Efficiency
+            <span class="text-info">&diams;</span> Market Research
+            <span class="text-info">&diams;</span> New Customer Acquistion
+            <span class="text-info">&diams;</span> Growth Strategies
+            <span class="text-info">&diams;</span> Advertising &amp; Marketing 
+            <br>
+            <br>
+            <!-- We have unique ways to help you improve.<br />
+            <b>A</b>ttention to detail, quality of work, and effiecient use of time and financial resources are also very important to us.-->
+            <!-- <a href="mailto:th@creativemonsterconsulting.com" target="_blank" title="th@creativemonsterconsulting.com">Contact us</a> --></p>
+            
             <ul class="masthead-links">
-              <!-- <li><a href="#" onclick="">Current Projects</a></li>
-              <li><a href="#" onclick="">View Examples</a></li>
-              <li><a href="#" onclick="">Ask Questions</a></li> -->
+              <!-- <li><a ui-sref="#">Current Projects</a></li>
+              <li><a ui-sref="#">Portfolio Examples</a></li> -->
+              <li><a href="mailto:th@creativemonsterconsulting.com" target="_blank" title="th@creativemonsterconsulting.com">Email Us</a></li><br><br>
               <li>&copy;2014 CMC, LLC. </li>
             </ul>
           </div>
         </div>
-        <!--     <h1 class="text-center">THANK YOU FOR DOWNLOADING MEAN.JS</h1>
-        <section>
-            <p>
-                Before you begin we recommend you read about the basic building blocks that assemble a MEAN.JS application:
-            </p>
-            <dl>
-                <dt>MongoDB</dt>
-                <dd>
-                    Go through <a target="_blank" href="http://mongodb.org">MongoDB Official Website</a> and proceed to its <a target="_blank" href="http://docs.mongodb.org/manual/">Great Manual</a>, which should help you understand NoSQL and MongoDB better.
-                </dd>
-                <dt>Express</dt>
-                <dd>
-                    The best way to understand Express is through its <a target="_blank" href="http://expressjs.com"> Official Website</a>, particularly <a target="_blank" href="http://expressjs.com/guide.html">The Express Guide</a>; you can also go through this <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow Thread</a> for more resources.
-                </dd>
-                <dt>AngularJS</dt>
-                <dd>
-                    Angular's <a target="_blank" href="http://angularjs.org">Official Website</a> is a great starting point. You can also use <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a>, and the <a target="_blank" href="https://egghead.io/">Egghead Videos</a>.
-                </dd>
-                <dt>Node.js</dt>
-                <dd>
-                    Start by going through <a target="_blank" href="http://nodejs.org">Node.js Official Website</a> and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">StackOverflow Thread</a>, which should get you going with the Node.js platform in no time.
-                </dd>
-            </dl>
-            <p class="alert alert-info">
-                When you're done with those resources and feel you understand the basic principles continue to the <a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>.
-            </p>
-            <br>
-            <br>Enjoy &amp; Keep Us Updated,
-            <br>The MEAN.JS Team.
-        </section> -->
-        </div>
+    </div>
+
+    <section class="col-md-7 whoWeAre">
+        <h4>A Business Mindset and Technology Toolset</h4>
+        <h6>WHO WE ARE</h6>
+        <p>We help manage and grow businesses both internally and externally through improvement of operations, increasing productivity with brand establishment, development and nurture of a healthy web presence, targeted digital advertising and marketing strategies, and connection of your brand with public audiences via social media.<br><br>
+        Our philosphy is to provide 360 degree analysis and advisory so that we can implement clearly defined strategies and make the impacts you desire but are unsure how to obtain.  Let us consult you for free and discuss ideas on how to get started.<br><br>
+        Call <a href="tes:+1412447-8555">(412)447-8555</a>.
+        <br>
+
+        </p>
+    </section>
+    <section class="col-md-4 whatWeDo">
+        <h4>WHAT WE DO</h4>
+        <ul>
+          <li>Web-based Application Development</li>
+          <li>Web-based Database Application Development</li>
+          <li>Non-profit, Grant-funded Life Cycle Projects</li>
+          <li>Technical and System Support</li>
+          <li>Mobile Responsive Websites</li>
+          <li>Content Management Systems (Custom, Wordpress, Joomla)</li>
+          <li>Custom Graphics and Photography</li>
+          <li>Web Application Hosting</li>
+          <li>Complex User Interface Design (UIX)</li>
+          <li>AdWords and Digital Advertising Campaigns</li>
+          <li>Harnessing Social Media</li>
+          <li>Operational analysis</li>
+          <li>Profit growth consulting</li>
+          <li>Cost Efficiency Consulting</li>
+          <li>Financial Planning, Budgeting, and ROI's</li>
+          <li>Key Perofrmance Indicators, Analysis setup, Performance tracking</li>
+        </ul>
+    </section>
 </section>
-            <ul class="masthead-links" data-ng-hide="authentication.user">
-                <!-- <li ui-route="/signup" ng-class="{active: $uiRoute}"><a href="/#!/signup">Signup</a></li>
-                <li class="divider-vertical"></li> -->
-                <li ui-route="/signin" ng-class="{active: $uiRoute}"><a href="/#!/signin">Customer Log-in</a></li>
-            </ul>
-            <ul class="masthead-links dropup" data-ng-show="authentication.user">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        {{authentication.user.displayName}} <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/#!/settings/profile">Edit Profile</a></li>
-                        <li><a href="/#!/settings/accounts">Manage Social Accounts</a></li>
-                        <li data-ng-show="authentication.user.provider === 'local'">
-                            <a href="/#!/settings/password">Change Password</a>
-                        </li>
-                        <li class="divider"></li>
-                        <li><a href="/auth/signout">Signout</a></li>
-                    </ul>
-                </li>
-            </ul>
+<br>
+<!-- <hr>
+
+<section class="col-md-12 portfolioExamples">
+  <h2>Portfolio of Projects</h2>
+  <div class="example" ng-repeat="project in projects">
+      <img src="{{project.img}}" style="position: inherit; float:right;">
+      <h4>{{project.company}}</h4>
+      <h6><i class="fa fa-link fa-2x"></i>&nbsp;<a href="{{project.url}}" target="_blank">{{project.url}}</a></h6>
+      <p>{{project.desc}}</p>
+      <h6><i class="fa fa-cogs fa-2x"></i>&nbsp;<i>Technologies</i>:</h6>
+      <table>
+          <tr><td><i class="fa fa-caret-right"></i>&nbsp;{{project.t1}}</td></tr>
+          <tr><td><i class="fa fa-caret-right"></i>&nbsp;{{project.t2}}</td></tr>
+          <tr><td><i class="fa fa-caret-right"></i>&nbsp;{{project.t3}}</td></tr>
+          <tr><td><i class="fa fa-caret-right"></i>&nbsp;{{project.t4}}</td></tr>
+          <tr><td><i class="fa fa-caret-right"></i>&nbsp;{{project.t5}}</td></tr>
+      </table>
+  </div>
+</section> -->
+         <!--    <ul class="masthead-links" data-ng-hide="authentication.user">
+             <li ui-route="/signup" ng-class="{active: $uiRoute}"><a href="/#!/signup">Signup</a></li>
+             <li class="divider-vertical"></li>
+             <li ui-route="/signin" ng-class="{active: $uiRoute}"><a href="/#!/signin">Customer Log-in</a></li>
+         </ul>
+         <ul class="masthead-links dropup" data-ng-show="authentication.user">
+             <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                     {{authentication.user.displayName}} <b class="caret"></b>
+                 </a>
+                 <ul class="dropdown-menu">
+                     <li><a href="/#!/settings/profile">Edit Profile</a></li>
+                     <li><a href="/#!/settings/accounts">Manage Social Accounts</a></li>
+                     <li data-ng-show="authentication.user.provider === 'local'">
+                         <a href="/#!/settings/password">Change Password</a>
+                     </li>
+                     <li class="divider"></li>
+                     <li><a href="/auth/signout">Signout</a></li>
+                 </ul>
+             </li>
+         </ul> -->
+</div>
+            <hr>
