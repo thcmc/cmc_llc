@@ -37,3 +37,8 @@ p {
 .masthead-links {
   text-align: center;;
 }
+
+
+.container-fluid {
+  padding: 0px;
+}
